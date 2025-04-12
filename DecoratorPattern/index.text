@@ -1,0 +1,16 @@
+Decorator Pattern vs Inheritance (PHP Example)
+Inheritance extends behavior via subclassing (is-a), which leads to a rigid class hierarchy.
+
+Decorator Pattern adds behavior by wrapping objects (has-a), allowing flexible composition.
+
+Decorator adheres to the Open/Closed Principle (open for extension, closed for modification) — you can add new features without changing existing code.
+
+Inheritance, on the other hand, often violates OCP, because adding new behavior usually means modifying or subclassing existing classes.
+
+✅ Your Code (Decorator Pattern):
+php
+Copy
+Edit
+(new OilChange(new TireRotation(new BasicInspection())))->getCost(); // 40
+You added new behavior (costs) by composing, not modifying — clean, modular, and OCP-compliant.
+
