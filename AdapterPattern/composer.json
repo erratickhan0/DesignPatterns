@@ -1,0 +1,9 @@
+{
+    "name": "hp/adapter-pattern",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src/"
+        }
+    }
+}
