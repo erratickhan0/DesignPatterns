@@ -1,0 +1,9 @@
+{
+    "name": "hp/template-pattern",
+    "autoload": {
+        "psr-4": {
+            "TemplatePattern\\": "src/"
+        }
+    },
+    "require": {}
+}
